@@ -1,0 +1,20 @@
+.page-header {
+  background: $off-white;
+  margin-bottom: $l-size;
+  padding: $m-size 0;
+}
+
+.page-header__title {
+  font-weight: 300;
+  margin: 0;
+}
+
+.page-header__text {
+  margin-top: $m-size;
+  > span {
+    font-style: italic;
+    font-weight: 700;
+  }
+}
+
+

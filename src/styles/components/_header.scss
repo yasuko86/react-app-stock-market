@@ -1,0 +1,28 @@
+.header {
+  background: $asana-orange;
+  width: 100vw;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+  @media (max-width: $desktop-breakpoint) {
+    padding: $s-size $s-size;
+  }
+}
+
+.header__logo {
+  color: white;
+  font-size: $font-size-xlarge;
+  text-decoration: none;
+  margin: 0;
+  @media (max-width: $desktop-breakpoint) {
+    font-size: $font-size-medium;
+    margin: 0 $l-size 0 0;
+  }
+  h1 {
+    margin: 0;
+  }
+}

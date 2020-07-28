@@ -1,0 +1,33 @@
+.text-input {
+  border: 1px solid #cacccd;
+  height: 50px;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: $s-size;
+  @media (min-width: $desktop-breakpoint) {
+    max-width: 210px;
+  }
+ }
+
+.select {
+  @extend .text-input;
+
+  @media (min-width: $desktop-breakpoint) {
+    max-width: none;
+  }
+}
+
+.label {
+  height: 50px;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: $s-size $s-size 0 $s-size;
+  @media (min-width: $desktop-breakpoint) {
+    height: 50px;
+    padding: $s-size 0 $s-size $s-size
+  }
+}
+
+.library-css-rule {
+  color: #000;
+}

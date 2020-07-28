@@ -1,0 +1,50 @@
+.message {
+  padding: $xl-size 0;
+}
+
+.message__box {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: $xl-size 0 $l-size;  
+}
+
+.message__image {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.message__image img {
+  width: 80%;
+}
+
+.message__text {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  h1 {
+    font-size: $font-size-xxlarge;
+    line-height: 1.1;
+    padding-bottom: 0;
+    margin-bottom: $m-size;
+  }
+
+  h2 {
+    margin-bottom: $l-size;
+    line-height: 1.4;
+  }
+
+  .button {
+    margin-top: $m-size;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .html-link {
+    color: blue;
+    word-wrap: break-word;
+  }
+}

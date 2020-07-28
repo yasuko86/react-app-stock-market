@@ -1,0 +1,43 @@
+.box-layout {
+  align-items: center;
+  background: url('/images/annie-spratt-QckxruozjRg-unsplash.jpg');
+  background-size: cover;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.box-layout__box {
+  background: fade-out(white, .15);
+  border-radius: 3px;
+  display: table;
+  padding: $xl-size $m-size;
+  text-align: center;
+  vertical-align: middle;
+  width: 60rem;
+  @media (max-width: $desktop-breakpoint) {
+    width: 30rem;
+    padding: $l-size $m-size;
+  }
+}
+
+.box-layout__items {
+  display: table-cell;
+  vertical-align: middle;
+  > h2, p {
+    margin: 0;
+  }
+  > .button {
+    margin-top: $xl-size;
+    @media (max-width: $desktop-breakpoint) {
+      margin-top: $l-size;
+    }
+  }
+}
+
+.box-layout__title {
+  font-size: $font-size-xxlarge;
+  line-height: 1;
+  margin: 0 0 $l-size 0;
+}

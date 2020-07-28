@@ -1,0 +1,28 @@
+.button {
+  background: $asana-purple;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+}
+
+.button--link {
+  background: none;
+  @media (max-width: $desktop-breakpoint) {
+  }
+}
+
+.button--action {
+  padding-left: $m-size;
+  padding-right: $m-size;
+  @media (min-width: $desktop-breakpoint) {
+    height: 50px;
+    margin-left: $m-size;
+  }
+}
+

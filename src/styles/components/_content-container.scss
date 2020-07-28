@@ -1,0 +1,18 @@
+.content-container {
+  margin: 0 auto;
+  padding: 0 $m-size;
+  max-width: 100rem;
+}
+
+.content-container__grid {
+  margin-bottom: $l-size;
+  @media (max-width: $desktop-breakpoint) {
+    margin-bottom: $m-size;
+  }
+}
+
+.content-container__graph {
+  position: relative;
+  min-width: 550px;
+  margin-bottom: $l-size;
+}
